@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    gap: 25px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    flex: 0 0 25%;
+    height: 95vh;
+    padding: 50px 30px;
+    gap: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: -100px;
+}
+
+.sidebar h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #333;
+}
+
+.sidebar select {
+    width: 80%;
+    margin-bottom: 16px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.price-slider {
+    margin-bottom: 16px;
+}
+
+.price-slider label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.price-slider input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #ddd;
+    outline: none;
+}
+
+.price-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.price-slider input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #007bff;
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    gap: 25px;
+}
+.sort-bar {
+    /* position: sticky; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 20px;
+    flex: 0 0 20%;
+    padding: 20px 35px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* max-width: 40vw; */
+    /* align-self: flex-end; */
+}
+
+.sort-bar h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #333;
+}
+
+.sort-bar select {
+    width: 12vw;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.products{
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: -20px;
+}
