@@ -52,7 +52,7 @@ const ProductDetails = () => {
         <Layout>
             <div className="product-detail-container">
                     <div className="image-container">
-                        <img src={`http://localhost:3000/${product.images}`} className="product-detail-image" alt="Product" />
+                        <img src={`${product.images}`} className="product-detail-image" alt="Product" />
                     </div>
 
                 <div className="product-detail-desc">
