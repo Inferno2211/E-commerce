@@ -1,0 +1,6 @@
+
+# dependencies
+/node_modules
+
+seed.js
+products.json
