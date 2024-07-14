@@ -4,6 +4,8 @@
 
 Welcome to the E-Commerce App, a sophisticated and user-friendly platform crafted to enhance your online shopping experience. Whether you're a casual browser or a dedicated shopper, our app offers a seamless way to explore and interact with a diverse array of products.
 
+[LIVE LINK](https://inferno-e-commerce.vercel.app)
+
 ### Features:
 
 - **Comprehensive Product Catalog:** Browse through a rich collection of products. Each product listing includes detailed descriptions, high-quality images, and essential specifications to help you make informed decisions.
@@ -16,9 +18,13 @@ Welcome to the E-Commerce App, a sophisticated and user-friendly platform crafte
 
 Created for Cantilever Web Development Internship
 
-## Screenshot
+## Demo
 
-![News App](./screenshot.png)
+
+
+https://github.com/user-attachments/assets/21cf5580-26f7-4ae9-91b5-3d9867c2062a
+
+
 
 ## Getting Started
 
@@ -34,7 +40,7 @@ Follow these instructions to clone the project and run it locally on your machin
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/news-app.git
+   git clone https://github.com/Inferno2211/E-commerce.git
    cd news-app
    ```
 
@@ -51,7 +57,7 @@ Follow these instructions to clone the project and run it locally on your machin
 
 4. **Create a .env file in the root of the project and add your API key:**
     ```env
-    REACT_APP_API_URL = your_news_api_key_here
+    REACT_APP_API_URL = your_connection_key
     ```
 
 ### Running the app
