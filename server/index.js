@@ -7,6 +7,9 @@ import postRoutes from './routes/posts.js'
 import productRoutes from './routes/products.js';
 import authRoutes from './routes/auth.js';
 import Product from './models/Product.js';
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
@@ -18,7 +21,7 @@ app.use(bodyParser.json({limit: "30mb", extended: true}));
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
 app.use(cors());
 
-const CONNECTION_URL = 'mongodb+srv://Inferno2211:inferno123@cluster0.glegb3z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const CONNECTION_URL = process.env.MONGO_URI;
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL)
