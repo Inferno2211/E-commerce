@@ -13,7 +13,7 @@ const Item = (props) => {
 
     return (
         <Link to={`/product/${props.id}`} className="product-card">
-            <img src={`http://localhost:3000/${props.images}`} width={250} height={250} className="product-image" alt={props.name} />
+            <img src={`${props.images}`} width={250} height={250} className="product-image" alt={props.name} />
             <p className="product-name">{props.name}</p>
             <div className="product-rating">
                 {Array.from({ length: fullStars }).map((_, index) => (
