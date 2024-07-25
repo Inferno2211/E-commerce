@@ -10,7 +10,8 @@ const Navbar = () => {
     useEffect(() => {
         const token = localStorage.getItem('token');
         if (!token) {
-        navigate('/');
+            navigate('/');
+            alert("Please sign in to continue!");
         } else {
         const userData = JSON.parse(localStorage.getItem('user'));
         setUser(userData);
